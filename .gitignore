@@ -31,3 +31,6 @@
 # Debug files
 *.dSYM/
 *.su
+
+# Reference material (should not be put into git as we might not have the rights to publish schematics, datasheets etc)
+ref/*
