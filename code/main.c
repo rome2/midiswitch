@@ -1,15 +1,15 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#define BTN_CH1 0b00100000
+#define BTN_CH1 0b10000000
 #define BTN_CH2 0b01000000
-#define BTN_CH3 0b10000000
+#define BTN_CH3 0b00100000
 #define BTN_MASK (BTN_CH1 | BTN_CH2 | BTN_CH3)
 
 #define LED_OFF 0b00000000
-#define LED_CH1 0b00000100
+#define LED_CH1 0b00010000
 #define LED_CH2 0b00001000
-#define LED_CH3 0b00010000
+#define LED_CH3 0b00000100
 #define LED_MASK (LED_CH1 | LED_CH2 | LED_CH3)
 
 #define IO_DIR DDRD
