@@ -16,3 +16,7 @@ You might have to adjust the programmer (AVRDUDE_PROGRAMMER) and port (AVRDUDE_P
 Usually a simple 'make all' in the code folder will be enough to build the binary. A 'make program' should upload the file to your Atmel.
 
 The code itself is very minimalistic. Every button click creates a message on the serial port and turns the LED on.
+
+My first attempt/prototype used a MSP430 but this was not really a good choice. The processor itself did fine but there were a lot of problems with the 3V logic and several MIDI devices. So i created the circuit again with a 5V processor and this worked much better in the end and was much simpler too. 
+
+![](0004.jpg)
